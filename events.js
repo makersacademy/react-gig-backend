@@ -1,6 +1,6 @@
 const events = [
   {
-    event_id: 1,
+    event_id: "1",
     band_name: "The Crooked Spires",
     image_url: "",
     description:
@@ -9,7 +9,7 @@ const events = [
     location: "The O2 Arena, London",
   },
   {
-    event_id: 2,
+    event_id: "2",
     band_name: "The Falling Stars",
     image_url: "",
     description:
@@ -18,7 +18,7 @@ const events = [
     location: "Wembley Stadium, London",
   },
   {
-    event_id: 3,
+    event_id: "3",
     band_name: "The Revolving Doors",
     image_url: "",
     description:
@@ -27,7 +27,7 @@ const events = [
     location: "The SSE Arena, Wembley, London",
   },
   {
-    event_id: 4,
+    event_id: "4",
     band_name: "The Shifting Sands",
     image_url: "",
     description:
@@ -36,7 +36,7 @@ const events = [
     location: "The Royal Albert Hall, London",
   },
   {
-    event_id: 5,
+    event_id: "5",
     band_name: "The Untamed Beasts",
     image_url: "",
     description:
@@ -45,7 +45,7 @@ const events = [
     location: "The SSE Arena, Wembley, London",
   },
   {
-    event_id: 6,
+    event_id: "6",
     band_name: "The Burning Flames",
     image_url: "",
     description:
@@ -54,7 +54,7 @@ const events = [
     location: "The O2 Arena, London",
   },
   {
-    event_id: 7,
+    event_id: "7",
     band_name: "The Echoing Voices",
     image_url: "",
     description:
@@ -63,7 +63,7 @@ const events = [
     location: "The SSE Arena, Wembley, London",
   },
   {
-    event_id: 8,
+    event_id: "8",
     band_name: "The Wandering Troubadours",
     image_url: "",
     description:
@@ -72,7 +72,7 @@ const events = [
     location: "The Roundhouse, London",
   },
   {
-    event_id: 9,
+    event_id: "9",
     band_name: "The Rising Storm",
     image_url: "",
     description:
@@ -81,7 +81,7 @@ const events = [
     location: "The Brixton Academy, London",
   },
   {
-    event_id: 10,
+    event_id: "10",
     band_name: "The Eternal Flame",
     image_url: "",
     description:
