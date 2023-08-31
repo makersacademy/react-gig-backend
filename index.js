@@ -13,6 +13,7 @@ app.use(session({ httpOnly: false, secure: true, sameSite: "none" }, app));
 app.use(bodyParser());
 
 app.use((ctx, next) => {
+  console.log("ctx.session.favourites:", ctx.session.favourites);
   if (!ctx.session.favourites) {
     ctx.session.favourites = {};
   }
