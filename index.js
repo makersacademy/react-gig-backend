@@ -8,6 +8,7 @@ const events = require("./events");
 
 app.use(cors({ credentials: true }));
 app.keys = ["some secret"];
+app.proxy = true;
 app.use(session({ httpOnly: false, secure: true, sameSite: "none" }, app));
 app.use(bodyParser());
 
